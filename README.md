@@ -1,3 +1,9 @@
+# Gatsby Fork Differences
+Checked out to older comment (c71d4cb40ddd6b24a6a4c8d00935b5ca4ecefecd) since the npm package seems to 
+run off older version of these repo w/ breaking changes in-between.
+
+Made is so mentions get passed the editorState inlineStyle so they keep the current settings for styling
+
 # DraftJS Plugins
 
 ![Draft JS Plugins Logo](http://static.nikgraf.com/draft-js-plugins/draft-js-plugins.svg)

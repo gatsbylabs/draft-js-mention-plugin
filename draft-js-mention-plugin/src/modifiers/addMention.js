@@ -33,7 +33,7 @@ const addMention = (
     editorState.getCurrentContent(),
     mentionTextSelection,
     `${mentionPrefix}${mention.name}`,
-    null, // no inline style needed
+    editorState.getCurrentInlineStyle(),
     entityKey
   );
 
@@ -48,7 +48,8 @@ const addMention = (
     mentionReplacedContent = Modifier.insertText(
       mentionReplacedContent,
       mentionReplacedContent.getSelectionAfter(),
-      ' '
+      ' ',
+      editorState.getCurrentInlineStyle()
     );
   }
 

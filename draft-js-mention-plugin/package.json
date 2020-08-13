@@ -1,15 +1,11 @@
 {
-  "name": "draft-js-mention-plugin",
-  "version": "3.1.5",
+  "name": "@gatsbylabs/draft-js-mention-plugin-with-styles",
+  "version": "3.1.7",
   "description": "Mention Plugin for DraftJS",
-  "author": {
-    "name": "Nik Graf",
-    "email": "nik@nikgraf.com",
-    "url": "http://www.nikgraf.com"
-  },
+  "author": "Nik Graf <nik@nikgraf.com> (http://www.nikgraf.com)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/draft-js-plugins/draft-js-plugins.git"
+    "url": "git+https://github.com/draft-js-plugins/draft-js-plugins.git"
   },
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
@@ -44,5 +40,9 @@
   "peerDependencies": {
     "draft-js": "^0.10.1 || ^0.11.0",
     "react": "^16.3.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/draft-js-plugins/draft-js-plugins/issues"
+  },
+  "homepage": "https://github.com/draft-js-plugins/draft-js-plugins#readme"
 }
